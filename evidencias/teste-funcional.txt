@@ -1,0 +1,8 @@
+FinançApp | Digite: inteiro operador inteiro (ex.: 5 / 2). Use sair para encerrar.
+Erro: Não é permitido dividir por zero.
+Erro: Operação inválida. Use +, -, * ou /.
+Erro: use números inteiros de 32 bits.
+Erro: informe inteiro operador inteiro.
+Resultado: 2.5
+Resultado: 15.0
+Calculadora encerrada.
