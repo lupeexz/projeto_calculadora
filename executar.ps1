@@ -24,7 +24,11 @@ switch ($Acao) {
     }
     'executar' { & (Jdk 'java') '-Dstdout.encoding=UTF-8' -cp build/classes calculadora.Aplicacao }
     'documentar' {
-        & (Jdk 'javadoc') -encoding UTF-8 -docencoding UTF-8 -charset UTF-8 -private -author -version -Xdoclint:all -classpath $junit -d (Join-Path $PSScriptRoot 'docs') src/calculadora/Calculadora.java src/calculadora/Aplicacao.java test/calculadora/TesteCalculadora.java
+        $destino = Join-Path $PSScriptRoot ('build/docs-' + [guid]::NewGuid().ToString('N'))
+        & (Jdk 'javadoc') -encoding UTF-8 -docencoding UTF-8 -charset UTF-8 -private -author -version -Xdoclint:all -classpath $junit -d $destino src/calculadora/Calculadora.java src/calculadora/Aplicacao.java test/calculadora/TesteCalculadora.java
+        ConferirSaida
+        New-Item -ItemType Directory -Force docs | Out-Null
+        Copy-Item "$destino/*" docs -Recurse -Force
     }
 }
 ConferirSaida
