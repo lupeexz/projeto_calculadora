@@ -1,0 +1,47 @@
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+Entrada: -8 / 2 | Esperado: -4.0 | Obtido: -4.0
+Entrada: 10 * 5 | Esperado: 50.0 | Obtido: 50.0
+Entrada: 10 / 0 | Esperado: N�o � permitido dividir por zero. | Obtido: N�o � permitido dividir por zero.
+Entrada: 10 % 5 | Esperado: Opera��o inv�lida. Use +, -, * ou /. | Obtido: Opera��o inv�lida. Use +, -, * ou /.
+Entrada: 10 + 5 | Esperado: 15.0 | Obtido: 15.0
+Entrada: 0 * 3 | Esperado: 0.0 | Obtido: 0.0
+Entrada: 10 - 5 | Esperado: 5.0 | Obtido: 5.0
+Entrada: 10 null 5 | Esperado: Opera��o inv�lida. Use +, -, * ou /. | Obtido: Opera��o inv�lida. Use +, -, * ou /.
+Entrada: 5 / 2 | Esperado: 2.5 | Obtido: 2.5
+Entrada: 2147483647 + 1 | Esperado: 2.147483648E9 | Obtido: 2.147483648E9
+Entrada: 10 / 5 | Esperado: 2.0 | Obtido: 2.0
+Entrada: 10  5 | Esperado: Opera��o inv�lida. Use +, -, * ou /. | Obtido: Opera��o inv�lida. Use +, -, * ou /.
+╷
+├─ JUnit Platform Suite ✔
+├─ JUnit Jupiter ✔
+│  └─ TesteCalculadora ✔
+│     ├─ negativos() ✔
+│     ├─ multiplicacao() ✔
+│     ├─ divisaoPorZero() ✔
+│     ├─ operacaoInvalida() ✔
+│     ├─ soma() ✔
+│     ├─ zero() ✔
+│     ├─ subtracao() ✔
+│     ├─ operacaoNula() ✔
+│     ├─ divisaoDecimal() ✔
+│     ├─ limiteInteiro() ✔
+│     ├─ divisao() ✔
+│     └─ operacaoVazia() ✔
+└─ JUnit Vintage ✔
+
+Test run finished after 207 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[        12 tests found           ]
+[         0 tests skipped         ]
+[        12 tests started         ]
+[         0 tests aborted         ]
+[        12 tests successful      ]
+[         0 tests failed          ]
+
