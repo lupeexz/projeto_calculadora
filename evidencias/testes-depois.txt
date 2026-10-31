@@ -1,0 +1,2 @@
+Erro: N�o foi poss�vel localizar nem carregar a classe principal .encoding=UTF-8
+Causada por: java.lang.ClassNotFoundException: /encoding=UTF-8
