@@ -131,7 +131,11 @@ Os mesmos 12 testes passaram antes e depois da refatoração: **12 executados, 1
 | Operador nulo | calc(10, 5, null) | IllegalArgumentException |
 | Operador vazio | calc(10, 5, "") | IllegalArgumentException |
 
-O [relatório HTML dos testes](evidencias/testes.html) apresenta a saída real da execução. **Print pendente:** abra o relatório ou execute os testes e salve uma captura em `images/testes/testes.png` antes da entrega.
+Captura da execução dos testes no terminal, mostrando as entradas, resultados esperados e obtidos, e o resumo com 12 testes aprovados e nenhuma falha:
+
+![Execução dos 12 testes unitários no terminal — todos aprovados](images/testes/testes.png)
+
+O [relatório HTML dos testes](evidencias/testes.html) também apresenta a saída real da execução.
 
 Registros completos: [antes](evidencias/testes-antes.txt), [depois](evidencias/testes-depois.txt), [relatório JUnit XML](evidencias/junit/TEST-junit-jupiter.xml).
 
