@@ -163,7 +163,9 @@ Documentação gerada pelo JavaDoc, incluindo membros privados para evidenciar o
 
 Abra [docs/index.html](docs/index.html) no navegador. Selecione o pacote `calculadora` e a classe desejada. A documentação é local e não depende de hospedagem.
 
-**Print pendente:** abra `docs/calculadora/Calculadora.html` no navegador e salve uma captura em `images/javadoc/calculadora.png` antes da entrega.
+Captura da documentação JavaDoc aberta no navegador, mostrando a classe `Calculadora`, sua descrição, versão, autor e resumo dos métodos:
+
+![Documentação JavaDoc da classe Calculadora](images/javadoc/calculadora.png)
 
 O [registro de geração](evidencias/javadoc.txt) contém a saída do comando JavaDoc.
 
